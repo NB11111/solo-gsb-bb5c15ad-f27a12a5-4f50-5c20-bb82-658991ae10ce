@@ -1,0 +1,25 @@
+{
+  "name": "srt-align-merge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "双版本字幕对齐合并工具：导入两份 SRT，按时间重叠与文本相似度顺序对齐，人工确认冲突后导出合并结果",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run --pool=forks --poolOptions.forks.singleFork=true"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "~5.5.4",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.1"
+  }
+}
